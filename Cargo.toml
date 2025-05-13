@@ -1,0 +1,14 @@
+[package]
+name = "rust-guitar-effects"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rust-guitar-effects"
+path = "main.rs"
+
+[dependencies]
+anyhow = "1.0"
+hound = "3.5"
+clap = { version = "4.5", features = ["derive"] }
+rand = "0.9"
