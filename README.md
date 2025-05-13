@@ -3,6 +3,7 @@ Rust implementation of common electric guitar effects
 Still a major WIP!
 
 ## Effects and Theory  
+The current `input.wav` was from [here](https://freesound.org/people/aceinet/sounds/417150/).
 #### Overdrive  
 - **Type:** Soft-clipping waveshaper  
 - **Formula:** `y = tanh(pre_gain * x) * level`  
@@ -49,16 +50,17 @@ Still a major WIP!
     - `mix`: dry/wet balance  
 
 ## How to use
-1. Clone  repo
-2. Build with `cargo build --release`
-3. To run an effect (eg Overdrive):
+- Clone  repo
+- Build with `cargo build --release`
+- To run an effect (eg Overdrive):
 ```
 ./target/release/rust-guitar-effects \
   --effect overdrive \
   samples/input.wav \
   output_overdrive.wav
   ```
-4. You can listen to the output wav in Reaper, Audacity, etc.
+- You can listen to the output wav in Reaper, Audacity, etc.
+- You can add more samples to the `samples\` directory, and adjust file names accordingly.
 
 ## Next Steps
 - Integrate real-time I/O with `cpal` or JACK
