@@ -2,8 +2,6 @@
 Rust implementation of common electric guitar effects
 Still a major WIP!
 
----
-
 ## Effects and Theory  
 #### Overdrive  
 - **Type:** Soft-clipping waveshaper  
@@ -50,7 +48,6 @@ Still a major WIP!
 - **Params:**  
     - `mix`: dry/wet balance  
 
----
 ## How to use
 1. Clone  repo
 2. Build with `cargo build --release`
@@ -62,7 +59,7 @@ Still a major WIP!
   output_overdrive.wav
   ```
 4. You can listen to the output wav in Reaper, Audacity, etc.
----
+
 ## Next Steps
 - Integrate real-time I/O with `cpal` or JACK
 - Wrap as VST3/AU plugin via `nih-plug` or `vst-rs`
