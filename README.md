@@ -2,6 +2,16 @@
 Rust implementation of common electric guitar effects
 Still a major WIP!
 
+## Demo
+**Sample Input:**
+- [Clean Riff](https://sndup.net/2jqm6/)
+
+**Sample Output:**
+- [Distortion](https://sndup.net/y264c/)
+- [Delay](https://sndup.net/m92qh)
+
+Overdrive, Reverb, and Chorus are also available.
+
 ## Effects and Theory  
 The current `input.wav` was from [here](https://freesound.org/people/aceinet/sounds/417150/).
 #### Overdrive  
